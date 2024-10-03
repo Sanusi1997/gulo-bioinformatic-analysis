@@ -1,7 +1,9 @@
 
 # Bioinformatics Analysis of GULO-Lactone Oxidase Gene (Vitamin C production) in mammals
 
-<p style="text-align:center; color:blue"><strong>Vitamin C Biosynthesis</strong></p>
+## Vitamin C Biosynthesis  ##
+
+
 <figure>
     <img src="/Project/vitamin-c-biosynthesis.png"
          alt="Vitamin C Biosynthesis">
@@ -21,5 +23,5 @@
 </figure>
 
 
-> :memo: **Collaborators:** **[Prof. Eric Gaucher](https://sites.gsu.edu/egaucher)**,  **[Hameed Sanusi](https://sites.google.com/view/hameedsanusi)**, Lily Tran,  <p style="color:blue">Mercy Bernard</p>  Nuria Ramirez, Allison Lipstein
+> :memo: **Collaborators:** **[Prof. Eric Gaucher](https://sites.gsu.edu/egaucher)**,  **[Hameed Sanusi](https://sites.google.com/view/hameedsanusi)**, Lily Tran, Mercy Bernard, Nuria Ramirez, Allison Lipstein
 
