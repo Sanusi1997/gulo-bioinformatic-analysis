@@ -1,0 +1,180 @@
+#NEXUS
+[written Sat Apr 06 16:54:18 EDT 2024 by Mesquite  version 3.81 (build 955) at Sansdman/192.168.12.162]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=126;
+	TAXLABELS
+		'Dasypus/1-440 novemcinctus' 'Choloepus didactylus/1-440' 'Manis pentadactyla/1-440' 'Manis javanica/1-440' 'Equus asinus/1-440' 'Equus quagga/1-440' 'Equus caballus/1-440' 'Balaenoptera acutorostrata scammoni/1-440' 'Balaenoptera musculus/1-440' 'Neophocaena asiaeorientalis asiaeorientalis/1-440' 'Phocoena sinus/1-440' 'Sousa chinensis/1-440' 'Orcinus orca/1-440' 'Lagenorhynchus obliquidens/1-440' 'Globicephala/1-440 melas' 'Monodon monoceros/1-440' 'Delphinapterus leucas/1-440' 'Lipotes vexillifer/1-440' 'Oryx dammah/1-440' 'Capra hircus/1-440' 'Ovis aries/1-440' 'Bubalus bubalis/1-440' 'Bos taurus/1-440' 'Moschus berezovskii/1-440' 'Rangifer tarandus platyrhyncus/1-440' 'Odocoileus virginianus texanus/1-440' 'Cervus canadensis/1-440' 'Muntiacus muntjak/1-440' 'Sus scrofa/1-440' 'Phacochoerus africanus/1-409' 'Vicugna pacos/1-440' 'Nycticebus coucang/1-440' 'Otolemur garnettii/1-440' 'Lemur catta/1-440' 'Microcebus murinus/1-440' 'Propithecus coquereli/1-440' 'Erinaceus europaeus/1-440' 'Talpa occidentalis/1-440' 'Rousettus leschenaultii/1-440' 'Rhinolophus sinicus/1-438' 'Hipposideros armiger/1-440' 'Puma yagouaroundi/1-440' 'Felis catus/1-440' 'Leopardus geoffroyi/1-440' 'Panthera tigris/1-440' 'Lynx canadensis/1-440' 'Crocuta crocuta/2-440' 'Hyaena hyaena/1-440' 'Meles meles/1-440' 'Mustela putorius furo/1-440' 'Neogale vison/1-440' 'Mustela erminea/1-440' 'Lutra lutra/1-440' 'Enhydra lutris kenyoni/1-440' 'Lontra canadensis/1-440' 'Ursus arctos/1-440' 'Ursus americanus/1-438' 'Ailuropoda melanoleuca/1-440' 'Zalophus californianus/1-440' 'Callorhinus ursinus/1-440' 'Eumetopias jubatus/1-440' 'Phoca vitulina/1-440' 'Halichoerus grypus/1-440' 'Mirounga/1-440  leonina' 'Mirounga angustirostris/1-434' 'Odobenus rosmarus divergens/1-440' 'Canis lupus familiaris/1-440' 'Vulpes lagopus/1-440' 'Vulpes vulpes/1-440' 'Nyctereutes procyonoides/1-419' 'Dipodomys spectabilis/1-440' 'Dipodomys ordii/1-440' 'Perognathus longimembris pacificus/1-435' 'Castor canadensis/1-440' 'Marmota flaviventris/1-440' 'Ictidomys tridecemlineatus/1-440' 'Urocitellus parryii/1-440' 'Marmota marmota marmota/1-440' 'Marmota monax/1-440' 'Heterocephalus/1-440 glaber' 'Fukomys damarensis/1-440' 'Chinchilla lanigera/1-438' 'Octodon degus/1-440' 'Jaculus jaculus/1-440' 'Nannospalax galili/1-440' 'Phodopus roborovskii/1-440' 'Mesocricetus auratus/1-440' 'Arvicola amphibius/1-440' 'Myodes glareolus/1-440' 'Microtus fortis/1-440' 'Microtus oregoni/1-440' 'Onychomys torridus/1-440' 'Peromyscus leucopus/1-440' 'Peromyscus maniculatus bairdii/1-440' 'Peromyscus californicus insignis/1-440' 'Grammomys surdaster/1-440' 'Mus pahari/1-440' 'Mus musculus/1-440' 'Mus caroli/1-440' 'Rattus rattus/1-440' 'Rattus norvegicus/1-440' 'Apodemus sylvaticus/1-440' 'Mastomys coucha/1-440' 'Arvicanthis niloticus/1-440' 'Psammomys obesus/1-440' 'Meriones unguiculatus/1-440' 'Acomys russatus/1-440' 'Ochotona princeps/1-437' 'Oryctolagus cuniculus/1-440' 'Tupaia chinensis/1-440' 'Echinops telfairi/1-440' 'Loxodonta/1-412 africana' 'Elephas maximus indicus/1-412' 'Trichechus manatus latirostris/1-412' 'Orycteropus afer afer/1-440' 'Gracilinanus agilis/1-440' 'Monodelphis domestica/1-440' 'Sarcophilus harrisii/1-440' 'Antechinus flavipes/1-440' 'Dromiciops gliroides/1-440' 'Vombatus ursinus/2-441' 'Phascolarctos cinereus/1-440' 'Trichosurus vulpecula/1-440' 'Oxyura jamaicensis/1-440' 'Aythya fuligula/1-430' 'Acipenser transmontanus/1-440' 
+	;
+
+END;
+
+
+BEGIN TREES;
+	Title Imported_trees;
+	ID 018eb53093c210;
+	LINK Taxa = Taxa;
+	TRANSLATE
+[0] 		1 'Dasypus/1-440 novemcinctus',
+[1] 		2 'Choloepus didactylus/1-440',
+[2] 		3 'Manis pentadactyla/1-440',
+[3] 		4 'Manis javanica/1-440',
+[4] 		5 'Equus asinus/1-440',
+[5] 		6 'Equus quagga/1-440',
+[6] 		7 'Equus caballus/1-440',
+[7] 		8 'Balaenoptera acutorostrata scammoni/1-440',
+[8] 		9 'Balaenoptera musculus/1-440',
+[9] 		10 'Neophocaena asiaeorientalis asiaeorientalis/1-440',
+[10] 		11 'Phocoena sinus/1-440',
+[11] 		12 'Sousa chinensis/1-440',
+[12] 		13 'Orcinus orca/1-440',
+[13] 		14 'Lagenorhynchus obliquidens/1-440',
+[14] 		15 'Globicephala/1-440 melas',
+[15] 		16 'Monodon monoceros/1-440',
+[16] 		17 'Delphinapterus leucas/1-440',
+[17] 		18 'Lipotes vexillifer/1-440',
+[18] 		19 'Oryx dammah/1-440',
+[19] 		20 'Capra hircus/1-440',
+[20] 		21 'Ovis aries/1-440',
+[21] 		22 'Bubalus bubalis/1-440',
+[22] 		23 'Bos taurus/1-440',
+[23] 		24 'Moschus berezovskii/1-440',
+[24] 		25 'Rangifer tarandus platyrhyncus/1-440',
+[25] 		26 'Odocoileus virginianus texanus/1-440',
+[26] 		27 'Cervus canadensis/1-440',
+[27] 		28 'Muntiacus muntjak/1-440',
+[28] 		29 'Sus scrofa/1-440',
+[29] 		30 'Phacochoerus africanus/1-409',
+[30] 		31 'Vicugna pacos/1-440',
+[31] 		32 'Nycticebus coucang/1-440',
+[32] 		33 'Otolemur garnettii/1-440',
+[33] 		34 'Lemur catta/1-440',
+[34] 		35 'Microcebus murinus/1-440',
+[35] 		36 'Propithecus coquereli/1-440',
+[36] 		37 'Erinaceus europaeus/1-440',
+[37] 		38 'Talpa occidentalis/1-440',
+[38] 		39 'Rousettus leschenaultii/1-440',
+[39] 		40 'Rhinolophus sinicus/1-438',
+[40] 		41 'Hipposideros armiger/1-440',
+[41] 		42 'Puma yagouaroundi/1-440',
+[42] 		43 'Felis catus/1-440',
+[43] 		44 'Leopardus geoffroyi/1-440',
+[44] 		45 'Panthera tigris/1-440',
+[45] 		46 'Lynx canadensis/1-440',
+[46] 		47 'Crocuta crocuta/2-440',
+[47] 		48 'Hyaena hyaena/1-440',
+[48] 		49 'Meles meles/1-440',
+[49] 		50 'Mustela putorius furo/1-440',
+[50] 		51 'Neogale vison/1-440',
+[51] 		52 'Mustela erminea/1-440',
+[52] 		53 'Lutra lutra/1-440',
+[53] 		54 'Enhydra lutris kenyoni/1-440',
+[54] 		55 'Lontra canadensis/1-440',
+[55] 		56 'Ursus arctos/1-440',
+[56] 		57 'Ursus americanus/1-438',
+[57] 		58 'Ailuropoda melanoleuca/1-440',
+[58] 		59 'Zalophus californianus/1-440',
+[59] 		60 'Callorhinus ursinus/1-440',
+[60] 		61 'Eumetopias jubatus/1-440',
+[61] 		62 'Phoca vitulina/1-440',
+[62] 		63 'Halichoerus grypus/1-440',
+[63] 		64 'Mirounga/1-440  leonina',
+[64] 		65 'Mirounga angustirostris/1-434',
+[65] 		66 'Odobenus rosmarus divergens/1-440',
+[66] 		67 'Canis lupus familiaris/1-440',
+[67] 		68 'Vulpes lagopus/1-440',
+[68] 		69 'Vulpes vulpes/1-440',
+[69] 		70 'Nyctereutes procyonoides/1-419',
+[70] 		71 'Dipodomys spectabilis/1-440',
+[71] 		72 'Dipodomys ordii/1-440',
+[72] 		73 'Perognathus longimembris pacificus/1-435',
+[73] 		74 'Castor canadensis/1-440',
+[74] 		75 'Marmota flaviventris/1-440',
+[75] 		76 'Ictidomys tridecemlineatus/1-440',
+[76] 		77 'Urocitellus parryii/1-440',
+[77] 		78 'Marmota marmota marmota/1-440',
+[78] 		79 'Marmota monax/1-440',
+[79] 		80 'Heterocephalus/1-440 glaber',
+[80] 		81 'Fukomys damarensis/1-440',
+[81] 		82 'Chinchilla lanigera/1-438',
+[82] 		83 'Octodon degus/1-440',
+[83] 		84 'Jaculus jaculus/1-440',
+[84] 		85 'Nannospalax galili/1-440',
+[85] 		86 'Phodopus roborovskii/1-440',
+[86] 		87 'Mesocricetus auratus/1-440',
+[87] 		88 'Arvicola amphibius/1-440',
+[88] 		89 'Myodes glareolus/1-440',
+[89] 		90 'Microtus fortis/1-440',
+[90] 		91 'Microtus oregoni/1-440',
+[91] 		92 'Onychomys torridus/1-440',
+[92] 		93 'Peromyscus leucopus/1-440',
+[93] 		94 'Peromyscus maniculatus bairdii/1-440',
+[94] 		95 'Peromyscus californicus insignis/1-440',
+[95] 		96 'Grammomys surdaster/1-440',
+[96] 		97 'Mus pahari/1-440',
+[97] 		98 'Mus musculus/1-440',
+[98] 		99 'Mus caroli/1-440',
+[99] 		100 'Rattus rattus/1-440',
+[100] 		101 'Rattus norvegicus/1-440',
+[101] 		102 'Apodemus sylvaticus/1-440',
+[102] 		103 'Mastomys coucha/1-440',
+[103] 		104 'Arvicanthis niloticus/1-440',
+[104] 		105 'Psammomys obesus/1-440',
+[105] 		106 'Meriones unguiculatus/1-440',
+[106] 		107 'Acomys russatus/1-440',
+[107] 		108 'Ochotona princeps/1-437',
+[108] 		109 'Oryctolagus cuniculus/1-440',
+[109] 		110 'Tupaia chinensis/1-440',
+[110] 		111 'Echinops telfairi/1-440',
+[111] 		112 'Loxodonta/1-412 africana',
+[112] 		113 'Elephas maximus indicus/1-412',
+[113] 		114 'Trichechus manatus latirostris/1-412',
+[114] 		115 'Orycteropus afer afer/1-440',
+[115] 		116 'Gracilinanus agilis/1-440',
+[116] 		117 'Monodelphis domestica/1-440',
+[117] 		118 'Sarcophilus harrisii/1-440',
+[118] 		119 'Antechinus flavipes/1-440',
+[119] 		120 'Dromiciops gliroides/1-440',
+[120] 		121 'Vombatus ursinus/2-441',
+[121] 		122 'Phascolarctos cinereus/1-440',
+[122] 		123 'Trichosurus vulpecula/1-440',
+[123] 		124 'Oxyura jamaicensis/1-440',
+[124] 		125 'Aythya fuligula/1-430',
+[125] 		126 'Acipenser transmontanus/1-440';
+	TREE Imported_tree_1 = ((((1:0.022554,(2:0.041066,((((3:0.004902,4:0.002739):0.043722[%bootstrapFrequency = 1.0 ],((5:0.002545,6:0.000001):0.000001[%bootstrapFrequency = 0.63 ],7:0.00254):0.021823[%bootstrapFrequency = 1.0 ]):0.006923[%bootstrapFrequency = 0.7575 ],(((((8:0.005144,9:0.000001):0.005013[%bootstrapFrequency = 0.94 ],(((((10:0.000001,11:0.002549):0.005105[%bootstrapFrequency = 0.86 ],((12:0.002555,(13:0.002554,14:0.000001):0.000001[%bootstrapFrequency = 0.18 ]):0.000001[%bootstrapFrequency = 0.555 ],15:0.002548):0.002557[%bootstrapFrequency = 0.676667 ]):0.000001[%bootstrapFrequency = 0.618 ],16:0.000001):0.000001[%bootstrapFrequency = 0.563333 ],17:0.002553):0.002046[%bootstrapFrequency = 0.941429 ],18:0.024239):0.005298[%bootstrapFrequency = 0.835 ]):0.021664[%bootstrapFrequency = 1.0 ],(((((((19:0.007645,20:0.002543):0.000001[%bootstrapFrequency = 0.77 ],21:0.00766):0.026215[%bootstrapFrequency = 1.0 ],(22:0.005154,23:0.000001):0.000001[%bootstrapFrequency = 0.65 ]):0.005135[%bootstrapFrequency = 0.6225 ],24:0.010352):0.000001[%bootstrapFrequency = 0.772 ],(25:0.007779,26:0.005084):0.007858[%bootstrapFrequency = 0.98 ]):0.000001[%bootstrapFrequency = 0.695714 ],(27:0.002574,28:0.005151):0.00257[%bootstrapFrequency = 0.77 ]):0.008803[%bootstrapFrequency = 0.848889 ],(29:0.000001,30:0.025105):0.02608[%bootstrapFrequency = 1.0 ]):0.00448[%bootstrapFrequency = 0.687273 ]):0.002514[%bootstrapFrequency = 0.688636 ],31:0.04007):0.005297[%bootstrapFrequency = 0.73 ],((((32:0.007924,33:0.012495):0.039599[%bootstrapFrequency = 1.0 ],(34:0.015361,(35:0.052092,36:0.011732):0.002049[%bootstrapFrequency = 0.46 ]):0.020449[%bootstrapFrequency = 0.955 ]):0.019932[%bootstrapFrequency = 0.885 ],(37:0.068491,38:0.09269):0.010436[%bootstrapFrequency = 0.17 ]):0.008869[%bootstrapFrequency = 0.576667 ],((39:0.04542,(40:0.033221,41:0.02843):0.015896[%bootstrapFrequency = 0.99 ]):0.010354[%bootstrapFrequency = 0.525 ],(((42:0.000001,(43:0.000001,((44:0.002548,45:0.002549):0.000001[%bootstrapFrequency = 0.19 ],46:0.000001):0.002545[%bootstrapFrequency = 0.73 ]):0.002544[%bootstrapFrequency = 0.483333 ]):0.012851[%bootstrapFrequency = 0.9825 ],(47:0.000001,48:0.000001):0.007836[%bootstrapFrequency = 1.0 ]):0.012825[%bootstrapFrequency = 0.985 ],(((49:0.005099,((50:0.005126,(51:0.007661,52:0.002546):0.000001[%bootstrapFrequency = 0.17 ]):0.005116[%bootstrapFrequency = 0.695 ],((53:0.002554,54:0.007697):0.000001[%bootstrapFrequency = 0.28 ],55:0.000001):0.002558[%bootstrapFrequency = 0.55 ]):0.000001[%bootstrapFrequency = 0.544 ]):0.012949[%bootstrapFrequency = 0.785 ],(((56:0.000001,57:0.000001):0.018456[%bootstrapFrequency = 1.0 ],58:0.004968):0.007804[%bootstrapFrequency = 0.85 ],((((59:0.000001,60:0.002547):0.000001[%bootstrapFrequency = 0.48 ],61:0.005118):0.005108[%bootstrapFrequency = 0.915 ],((62:0.002559,63:0.002556):0.002537[%bootstrapFrequency = 0.7 ],(64:0.000001,65:0.000001):0.002553[%bootstrapFrequency = 0.81 ]):0.000001[%bootstrapFrequency = 0.596667 ]):0.005108[%bootstrapFrequency = 0.908333 ],66:0.002563):0.012884[%bootstrapFrequency = 0.948571 ]):0.000001[%bootstrapFrequency = 0.66 ]):0.002588[%bootstrapFrequency = 0.6 ],(67:0.002546,((68:0.000001,69:0.002535):0.000001[%bootstrapFrequency = 0.34 ],70:0.000001):0.000001[%bootstrapFrequency = 0.42 ]):0.012791[%bootstrapFrequency = 1.0 ]):0.005423[%bootstrapFrequency = 0.820952 ]):0.020711[%bootstrapFrequency = 0.955357 ]):0.000001[%bootstrapFrequency = 0.77 ]):0.005445[%bootstrapFrequency = 0.562368 ]):0.005102[%bootstrapFrequency = 0.896613 ]):0.002759[%bootstrapFrequency = 0.851579 ],((((((((71:0.000001,72:0.002554):0.010425[%bootstrapFrequency = 1.0 ],73:0.046929):0.03455[%bootstrapFrequency = 0.97 ],74:0.032249):0.016549[%bootstrapFrequency = 0.913333 ],((75:0.005111,(76:0.002557,77:0.010254):0.002548[%bootstrapFrequency = 0.67 ]):0.002553[%bootstrapFrequency = 0.525 ],(78:0.002546,79:0.002547):0.000001[%bootstrapFrequency = 0.44 ]):0.013064[%bootstrapFrequency = 0.9075 ]):0.002972[%bootstrapFrequency = 0.5 ],((((80:0.018488,81:0.037836):0.01838[%bootstrapFrequency = 0.98 ],(82:0.039853,83:0.014728):0.010444[%bootstrapFrequency = 0.95 ]):0.018005[%bootstrapFrequency = 0.99 ],84:0.052653):0.008219[%bootstrapFrequency = 0.6575 ],(85:0.047473,((((86:0.017935,87:0.020929):0.015483[%bootstrapFrequency = 0.86 ],(88:0.009397,((89:0.033599,90:0.005748):0.009947[%bootstrapFrequency = 0.7 ],91:0.013596):0.009381[%bootstrapFrequency = 0.855 ]):0.047325[%bootstrapFrequency = 1.0 ]):0.008008[%bootstrapFrequency = 0.806 ],(92:0.022565,((93:0.005126,94:0.005088):0.00777[%bootstrapFrequency = 0.95 ],95:0.007706):0.00634[%bootstrapFrequency = 0.955 ]):0.009523[%bootstrapFrequency = 0.81 ]):0.00823[%bootstrapFrequency = 0.618889 ],(((96:0.007662,(((97:0.00506,(98:0.009865,99:0.007306):0.005978[%bootstrapFrequency = 0.83 ]):0.010295[%bootstrapFrequency = 0.905 ],((100:0.004759,101:0.005431):0.032239[%bootstrapFrequency = 1.0 ],102:0.056748):0.004703[%bootstrapFrequency = 0.62 ]):0.000001[%bootstrapFrequency = 0.676 ],103:0.012765):0.002549[%bootstrapFrequency = 0.606667 ]):0.000001[%bootstrapFrequency = 0.541429 ],104:0.005073):0.007342[%bootstrapFrequency = 0.8175 ],((105:0.002766,106:0.004935):0.010181[%bootstrapFrequency = 0.93 ],107:0.036498):0.005445[%bootstrapFrequency = 0.8 ]):0.002962[%bootstrapFrequency = 0.539091 ]):0.016781[%bootstrapFrequency = 0.920476 ]):0.016638[%bootstrapFrequency = 0.962727 ]):0.00419[%bootstrapFrequency = 0.882222 ]):0.0121[%bootstrapFrequency = 0.853889 ],(108:0.050742,109:0.032032):0.014517[%bootstrapFrequency = 0.77 ]):0.011574[%bootstrapFrequency = 0.736842 ],110:0.032271):0.002569[%bootstrapFrequency = 0.634872 ],((111:0.118197,((112:0.000001,113:0.00276):0.009078[%bootstrapFrequency = 0.99 ],114:0.016096):0.006036[%bootstrapFrequency = 0.85 ]):0.010473[%bootstrapFrequency = 0.906667 ],115:0.017887):0.010701[%bootstrapFrequency = 0.915 ]):0.002732[%bootstrapFrequency = 0.673636 ]):0.011532[%bootstrapFrequency = 0.943333 ]):0.011152[%bootstrapFrequency = 0.960909 ]):0.075579[%bootstrapFrequency = 0.996 ],(((((116:0.038846,117:0.041775):0.03377[%bootstrapFrequency = 0.89 ],(118:0.01771,119:0.015069):0.055553[%bootstrapFrequency = 1.0 ]):0.022439[%bootstrapFrequency = 0.726667 ],120:0.044538):0.017943[%bootstrapFrequency = 0.585 ],(121:0.012265,122:0.030524):0.035577[%bootstrapFrequency = 0.99 ]):0.018269[%bootstrapFrequency = 0.761667 ],123:0.017414):0.076663[%bootstrapFrequency = 0.997143 ]):0.098182[%bootstrapFrequency = 0.99 ],(124:0.00977,125:0.003163):0.105911[%bootstrapFrequency = 1.0 ]):0.177325,126:0.177325)[% ] [% ] [%  setBetweenDouble = bootstrapFrequency ];
+
+END;
+
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1712436858884;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 2862801511001298680;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState true false 100;
+			setPopoutState 300;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 700 464;
+			setLocation 8 8;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		endTell;
+end;
+
+

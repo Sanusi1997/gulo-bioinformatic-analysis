@@ -1,0 +1,8 @@
+The analysis was run using raxmlGUI 2.0 (version 2.0.10) as follows:
+Analysis: ML + thorough bootstrap
+Binary: raxmlHPC-PTHREADS-SSE3.exe version 8.2.12
+Results saved to: C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Thorough Bootstrap Run 3
+RAxML was called with these arguments:
+1.) -T 2 -b 954743 -m PROTGAMMAIJTTX -p 954743 -N 100 -O -o Acipenser_transmontanus -n GULO_proteinR.tre -s "C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa" -w "C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Thorough Bootstrap Run 3"
+2.) -T 2 -f d -m PROTGAMMAIJTTX -p 954743 -N 1 -O -o Acipenser_transmontanus -n GULO_proteinB.tre -s "C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa" -w "C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Thorough Bootstrap Run 3"
+3.) -T 2 -f b -t "C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Thorough Bootstrap Run 3\RAxML_bestTree.GULO_proteinB.tre" -z "C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Thorough Bootstrap Run 3\RAxML_bootstrap.GULO_proteinR.tre" -m PROTGAMMAIJTTX -O -n GULO_protein.tre -s "C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa" -w "C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Thorough Bootstrap Run 3"

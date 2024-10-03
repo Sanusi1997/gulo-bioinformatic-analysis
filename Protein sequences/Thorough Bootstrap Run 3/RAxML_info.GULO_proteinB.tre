@@ -1,0 +1,74 @@
+
+You are using a proportion of Invariable sites estimate, although I don't
+like it. The likelihood epsilon "-f e" will be automatically lowered to 0.001
+to avoid unfavorable effects caused by simultaneous optimization of alpha and P-Invar
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 305 distinct alignment patterns
+
+Found 0 invariant alignment patterns that correspond to 0 columns 
+Proportion of gaps and completely undetermined characters in this alignment: 0.30%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA+P-Invar model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA+P-Invar Model parameters will be estimated up to an accuracy of 0.0010000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 305
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: JTT
+Using ML estimate of base frequencies
+
+
+
+
+RAxML was called as follows:
+
+C:\Users\Hameed\AppData\Local\Programs\raxmlgui\resources\static\bin\raxmlHPC-PTHREADS-SSE3.exe -T 2 -f d -m PROTGAMMAIJTTX -p 954743 -N 1 -O -o Acipenser_transmontanus -n GULO_proteinB.tre -s C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa -w C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Thorough Bootstrap Run 3 
+
+
+Partition: 0 with name: No Name Provided
+Initial base frequencies, prior to ML estimate: 0.050 0.050 0.050 0.050 0.050 0.050 0.050 0.050 0.050 0.050 0.050 0.050 0.050 0.050 0.050 0.050 0.050 0.050 0.050 0.050 
+
+Inference[0]: Time 100.358892 GAMMA+P-Invar-based likelihood -9073.046505, best rearrangement setting 5
+alpha[0]: 0.837998 invar[0]: 0.230160 ML estimate base freqs[0]: 0.059987 0.052639 0.045436 0.038936 0.031500 0.042350 0.055014 0.040412 0.036772 0.054302 0.076190 0.066883 0.034497 0.053139 0.030550 0.079296 0.058419 0.018790 0.038699 0.086190 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -9072.589379 tree written to file C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Thorough Bootstrap Run 3\RAxML_result.GULO_proteinB.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -9072.589379 .... 
+
+Final GAMMA-based Score of best tree -9072.589379
+
+Program execution info written to C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Thorough Bootstrap Run 3\RAxML_info.GULO_proteinB.tre
+Best-scoring ML tree written to: C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Thorough Bootstrap Run 3\RAxML_bestTree.GULO_proteinB.tre
+
+Overall execution time: 177.067915 secs or 0.049186 hours or 0.002049 days
+

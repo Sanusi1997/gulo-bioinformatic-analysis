@@ -1,0 +1,177 @@
+--------------------------------------------------------------------------------
+ModelTest-NG v0.1.7
+
+Input data:
+  MSA:        C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa
+  Tree:       Maximum parsimony
+    file:           -
+  #taxa:            126
+  #sites:           440
+  #patterns:        305
+  Max. thread mem:  93 MB
+
+Output:
+  Log:           C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Rapid Bootstrap Run - fish outgroup\RAxML_GUI_ModelTest_GULO_protein_MSA_Cleaned_Seq_modified.log
+  Starting tree: C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Rapid Bootstrap Run - fish outgroup\RAxML_GUI_ModelTest_GULO_protein_MSA_Cleaned_Seq_modified.tree
+  Results:       C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Rapid Bootstrap Run - fish outgroup\RAxML_GUI_ModelTest_GULO_protein_MSA_Cleaned_Seq_modified.out
+
+Selection options:
+  # protein matrices: 19
+  # protein models:   152
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: false
+    #categories:     4
+  gamma rates mode:   mean
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.05
+  keep branches:      false
+
+Additional options:
+  verbosity:        very low
+  threads:          2/10
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  JTT+I+G4           2     -9189.8997     19907.5798         0.0000    0.9382
+       2  JTT-DCMUT+I+G4     2     -9192.6729     19913.1262         5.5464    0.0586
+       3  JTT+G4             1     -9198.6892     19919.0722        11.4924    0.0030
+       4  JTT-DCMUT+G4       1     -9201.3488     19924.3912        16.8114    0.0002
+       5  JTT+I+G4+F        21     -9174.8615     19993.1521        85.5724    0.0000
+       6  JTT-DCMUT+I+G4+F   21     -9177.2771     19997.9834        90.4036    0.0000
+       7  JTT+G4+F          20     -9182.8508     20003.0439        95.4642    0.0000
+       8  JTT-DCMUT+G4+F    20     -9185.1679     20007.6782       100.0985    0.0000
+       9  HIVB+I+G4          2     -9248.9832     20025.7468       118.1670    0.0000
+      10  HIVB+G4            1     -9255.7450     20033.1837       125.6040    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              JTT+I+G4
+lnL:                -9189.8997
+Frequencies:        0.0767 0.0517 0.0426 0.0515 0.0198 0.0408 0.0618 0.0732 0.0229 0.0538 0.0919 0.0587 0.0238 0.0401 0.0509 0.0688 0.0586 0.0143 0.0321 0.0660
+Inv. sites prop:    0.2242
+Gamma shape:        0.7916
+Score:              19907.5798
+Weight:             0.9382
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0032
+Gamma-Inv:          0.9968
+Frequencies:        0.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.3652
+Alpha:              0.4732
+Alpha-P.Inv:        0.7917
+P.Inv-Alpha:        0.2242
+Frequencies:        0.0618 0.0427 0.0368 0.0426 0.0264 0.0370 0.0573 0.0625 0.0411 0.0454 0.1010 0.0671 0.0268 0.0584 0.0437 0.0566 0.0544 0.0228 0.0400 0.0756 
+
+Commands:
+  > phyml  -i C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa -d aa -m JTT -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa -m PROTGAMMAIJTT -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa --model JTT+I+G4
+  > paup -s C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa
+  > iqtree -s C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa -m JTT+I+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  JTT+I+G4           2     -9189.8997     18881.7993         0.0000    0.9228
+       2  JTT-DCMUT+I+G4     2     -9192.6729     18887.3457         5.5464    0.0576
+       3  JTT+I+G4+F        21     -9174.8615     18889.7230         7.9237    0.0176
+       4  JTT-DCMUT+I+G4+F   21     -9177.2771     18894.5542        12.7549    0.0016
+       5  JTT+G4             1     -9198.6892     18897.3785        15.5792    0.0004
+       6  JTT-DCMUT+G4       1     -9201.3488     18902.6975        20.8982    0.0000
+       7  JTT+G4+F          20     -9182.8508     18903.7015        21.9022    0.0000
+       8  JTT-DCMUT+G4+F    20     -9185.1679     18908.3358        26.5365    0.0000
+       9  HIVB+I+G4+F       21     -9205.8673     18951.7345        69.9352    0.0000
+      10  HIVB+G4+F         20     -9210.9578     18959.9156        78.1163    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              JTT+I+G4
+lnL:                -9189.8997
+Frequencies:        0.0767 0.0517 0.0426 0.0515 0.0198 0.0408 0.0618 0.0732 0.0229 0.0538 0.0919 0.0587 0.0238 0.0401 0.0509 0.0688 0.0586 0.0143 0.0321 0.0660
+Inv. sites prop:    0.2242
+Gamma shape:        0.7916
+Score:              18881.7993
+Weight:             0.9228
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0004
+Gamma-Inv:          0.9996
+Frequencies:        0.0191
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.3652
+Alpha:              0.4727
+Alpha-P.Inv:        0.7916
+P.Inv-Alpha:        0.2242
+Frequencies:        0.0618 0.0427 0.0368 0.0426 0.0264 0.0370 0.0573 0.0625 0.0411 0.0454 0.1010 0.0671 0.0268 0.0584 0.0437 0.0566 0.0544 0.0228 0.0400 0.0756 
+
+Commands:
+  > phyml  -i C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa -d aa -m JTT -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa -m PROTGAMMAIJTT -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa --model JTT+I+G4
+  > paup -s C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa
+  > iqtree -s C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa -m JTT+I+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  JTT+I+G4           2     -9189.8997     19553.7993         0.0000    0.9203
+       2  JTT-DCMUT+I+G4     2     -9192.6729     19559.3457         5.5464    0.0575
+       3  JTT+G4             1     -9198.6892     19561.3785         7.5792    0.0208
+       4  JTT-DCMUT+G4       1     -9201.3488     19566.6975        12.8982    0.0015
+       5  HIVB+I+G4          2     -9248.9832     19671.9663       118.1670    0.0000
+       6  HIVB+G4            1     -9255.7450     19675.4901       121.6908    0.0000
+       7  LG+I+G4            2     -9288.7721     19751.5441       197.7448    0.0000
+       8  JTT+I+G4+F        21     -9174.8615     19754.7230       200.9237    0.0000
+       9  JTT+G4+F          20     -9182.8508     19757.7015       203.9022    0.0000
+      10  JTT-DCMUT+I+G4+F   21     -9177.2771     19759.5542       205.7549    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              JTT+I+G4
+lnL:                -9189.8997
+Frequencies:        0.0767 0.0517 0.0426 0.0515 0.0198 0.0408 0.0618 0.0732 0.0229 0.0538 0.0919 0.0587 0.0238 0.0401 0.0509 0.0688 0.0586 0.0143 0.0321 0.0660
+Inv. sites prop:    0.2242
+Gamma shape:        0.7916
+Score:              19553.7993
+Weight:             0.9203
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0223
+Gamma-Inv:          0.9777
+Frequencies:        0.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.3652
+Alpha:              0.4732
+Alpha-P.Inv:        0.7917
+P.Inv-Alpha:        0.2242
+Frequencies:        0.0618 0.0427 0.0368 0.0426 0.0264 0.0370 0.0573 0.0625 0.0411 0.0454 0.1010 0.0671 0.0268 0.0584 0.0437 0.0566 0.0544 0.0228 0.0400 0.0756 
+
+Commands:
+  > phyml  -i C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa -d aa -m JTT -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa -m PROTGAMMAIJTT -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa --model JTT+I+G4
+  > paup -s C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa
+  > iqtree -s C:\Users\Hameed\Desktop\VitaminCProject\Protein sequences\Model (JTT+I+G)\GULO_protein_MSA_Cleaned_Seq_modified.fa -m JTT+I+G4
+Done
